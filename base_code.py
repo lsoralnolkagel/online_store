@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_greeting():
-    return 'Welcome to my site'
+    return 'Welcome to my website'
 
 
 @app.route('/create_user', methods=['POST'])
